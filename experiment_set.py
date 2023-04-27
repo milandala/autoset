@@ -225,7 +225,7 @@ while True:
         print("")
         print(set[2])
     
-    time.sleep(3000/1000)
+    time.sleep(1000/1000)
     if cv2.waitKey(1) == ord('q'):
         break
 
