@@ -30,3 +30,7 @@ In this step I've encountered the problem that if threshold was too high, then t
 3. Knowing which cards are on screen, we can now find the sets. A set is when three card is found, where the four attributes (color, pattern, shape, count) of each card is either the same or either all different. For this, python's implementation of the mathematical set (without multiplicities) came handy.
 
 4. Finally, the corresponding cards are selected with virtual keyboard commands.
+
+## Further experimenting
+
+I'd like to try to use feature matching instead of template matching to see how the two compares in speed, sensitivity to card size, card orientation.
